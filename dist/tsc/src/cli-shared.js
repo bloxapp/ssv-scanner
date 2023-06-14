@@ -31,7 +31,7 @@ function main() {
             console.log(' -----------------------------------------------------------------------------------');
             console.log(`${message || messageText}`);
             console.log(' -----------------------------------------------------------------------------------');
-            for (const str of String(package_json_1.default.description).match(/.{1,75}/g) || []) {
+            for (const str of String(package_json_1.default.description).match(/.{1,77}/g) || []) {
                 console.log(` ${str}`);
             }
             console.log(' -----------------------------------------------------------------------------------\n');
