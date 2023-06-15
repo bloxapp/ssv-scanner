@@ -18,7 +18,7 @@ async function main() {
 
   const nonceScanner = new NonceScanner(params);
   const nextNonce = await nonceScanner.run();
-  console.log('Next nonce:', nextNonce);
+  console.log('Owner Nonce:', nextNonce);
 }
 
 void main();
